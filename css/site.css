@@ -53,6 +53,15 @@ h1 {
 	font-size: 11px;
 }
 
+.disabled, .disabled a, .dropdown-menu>.disabled>a {
+	color: rgb(180,180,180);
+	cursor: default;
+}
+
+.disabled  .elem {
+	border-color: rgb(200,200,200);
+}
+
 #footer {
    margin-top: 145px;
    position: relative;
